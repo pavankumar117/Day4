@@ -1,0 +1,30 @@
+body {
+  background-color: #7FFFD4;
+}
+#tab {
+  width: 300;
+  height: 50;
+  color: #FFFAF0;
+  background-color:	#008B8B;
+}
+p {
+  width: 300;
+  height: 100;
+  font-size: 25;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #808080;
+}
+#text1 {
+  margin-top: 50;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-right: 0
+
+}
+#text2 {
+  margin-top: 40;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}

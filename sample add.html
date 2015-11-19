@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Adding / reading two numbers from form</title>
+</head>
+</body>
+<input type = 'text' id = 'txt1'>
+<input type = 'text' id = 'txt2'>
+<button onclick = my();>Submit</button>
+<div id = 'mytable'>
+<script>
+function my() {
+  var x = parseInt(document.getElementById('txt1').value);
+  var y = parseInt(document.getElementById('txt2').value);//sucessfully compleated reading values from form
+  //document.write('you entered:' +x+ ''+y);
+  var dvv = document.getElementById('mytable');
+  var tab = document.createElement('table');
+  tab.setAttribute('border','1');
+  for(var i = 0; i<x; i++); {
+    var row = document.createElement('tr');
+    for(var j = 0; j<y; j++); {
+  var col = document.createElement('td');
+  var colText = document.createTextNode(i+''+j);
+  col.appendChild(colText);
+  row.appendChild(col);
+}
+  tab.appendChild(row);
+}
+  dvv.appendChild(tab);
+  console.log(x);
+  console.log(y);
+}
+</script>
+</body>
+</html>
